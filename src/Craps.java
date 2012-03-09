@@ -6,12 +6,13 @@ public class Craps {
 		// TODO Auto-generated method stub
 		Random rn = new Random();
 		int playerNumber = 0; 
+		int dii1, dii2;
 		boolean first = true;
 		
 		while(true) {
-			int dii1 = rn.nextInt(6) + 1;
+			dii1 = rn.nextInt(6) + 1;
 			System.out.print("Dii 1: " + dii1);
-			int dii2 = rn.nextInt(6) + 1;
+			dii2 = rn.nextInt(6) + 1;
 			System.out.print("\tDii 2: " + dii2);
 			int dice = dii1 + dii2;
 			System.out.println("\tSum of both dice: " + dice);
